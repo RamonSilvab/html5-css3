@@ -44,19 +44,7 @@ header h1 {
     background-repeat: no-repeat;
 }
 
-.branco {
-    background-color: #fff;
-    font-family: var(--font2);
-    padding: 30px;
-    font-size: 4vh;
+footer > p a {
+    color: black;
 }
 
-.transparente {
-    font-family: var(--font2);
-    color: #fff;
-    font-size: 4vh;
-    background-color: rgba(0, 0, 0, 0.283);
-    max-width: 280px;
-    padding: 10px 10px 10px 30px;
-    margin: 70px 0;
-}
