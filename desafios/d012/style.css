@@ -11,9 +11,13 @@
     margin: 0;
 }
 
+html, body {
+    background-color: darkgray;
+}
+
 header {
     height: 150px;
-    background-color: black;
+    background-color: rgb(0, 0, 0);
     color: #ffff;
     font-family: var(--font1);
     display: flex;
@@ -22,6 +26,7 @@ header {
 
 header h1 {
     font-size: 10vh;
+    font-variant: small-caps;
 }
 
 #cabeçalho {
@@ -35,16 +40,37 @@ header h1 {
     color: #fff
 }
 
-#Joaninha {
-    height: 100vh;
-    background-image: url('imagens/background001.jpg');
-    background-size: cover;
-    background-position: left center;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
+p a:hover {
+    text-decoration: underline;
 }
 
-footer > p a {
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+}
+
+.normal {
+    background-color: #fff;
     color: black;
+    font-family: var(--font2);
 }
 
+.imagem {
+    background-color: rgb(45, 43, 43);
+    color: #fff;
+    font-family: var(--font2);
+}
+
+.imagem > p {
+    background-color: rgba(0, 0, 0, 0.107);
+    width: 400px;
+}
+
+footer {
+    background-color: black;
+    text-align: center;
+    color: #fff;
+    padding: 10px;
+}
